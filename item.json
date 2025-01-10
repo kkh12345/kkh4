@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "brand": "[쿡잇분식]",
+    "title": "닭가슴살 소떡소떡 120g/옵션",
+    "desc": "100% 국내산 찹쌀 닭가슴살",
+    "discountRate": 41,
+    "discountedPrice": 5900,
+    "firstCost": 10000,
+    "src": "img/item1.png",
+    "refrigerated": "none",
+    "limitedPrice": "",
+    "timeSale": "none",
+
+    "concentrate": "none",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 2,
+    "brand": "[쿡잇포차]",
+    "title": "골라먹는 양념 숯불 파닭꼬치 800g/쿠폰",
+    "desc": "향긋한 봄내음이 일품인",
+    "discountRate": 16,
+    "discountedPrice": 7470,
+    "firstCost": 8900,
+    "src": "img/item2.png",
+    "refrigerated": "none",
+    "limitedPrice": "",
+    "timeSale": "none",
+    "concentrate": "none",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 3,
+    "brand": "[미소김밥]",
+    "title": "3분 조리 식잔관리 냉동 김밥220g,3종/관련,추가",
+    "desc": "부산 특제 막장 소스가 들어있는 쫄깃한 막창",
+    "discountRate": 20,
+    "discountedPrice": 2520,
+    "firstCost": 7470,
+    "src": "img/item3.png",
+    "refrigerated": "none",
+    "limitedPrice": "none",
+    "timeSale": "",
+    "concentrate": "none",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 4,
+    "brand": "[쿡잇분식]",
+    "title": "크리스피 현미 핫도그 5개입/옵션",
+    "desc": "고구마,모짜렐라,포테이토",
+    "discountRate": 20,
+    "discountedPrice": 2520,
+    "firstCost": 7470,
+    "src": "img/item4.png",
+    "refrigerated": "none",
+    "limitedPrice": "none",
+    "timeSale": "",
+    "concentrate": "none",
+    "best": ""
+    ,"like" : 0
+  },
+  {
+    "id": 5,
+    "brand": "[매일푸줏간]",
+    "title": "초벌 부산돼지막창 300g/추가이미지",
+    "desc": "부산 특제 막장 소스가 들어있는 쫄깃한 막창",
+    "discountRate": 20,
+    "discountedPrice": 6410,
+    "firstCost": 8010,
+    "src": "img/item5.png",
+    "refrigerated": "none",
+    "limitedPrice": "",
+    "timeSale": "",
+    "concentrate": "none",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 6,
+    "brand": "[전주밥상]",
+    "title": "신선산채나물 고사리 110g",
+    "desc": "씹을수록 구소한 고사리",
+    "discountRate": 0,
+    "discountedPrice": 0,
+    "firstCost": 3480,
+    "src": "img/item6.png",
+    "refrigerated": "",
+    "limitedPrice": "none",
+    "timeSale": "none",
+    "concentrate": "none",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 7,
+    "brand": "[전주밥상]",
+    "title": "신선산채나물 시금치나물 110g",
+    "desc": "향긋한 봄내음이 일품인",
+    "discountRate": 0,
+    "discountedPrice": 0,
+    "firstCost": 2800,
+    "src": "img/item7.png",
+    "refrigerated": "",
+    "limitedPrice": "none",
+    "timeSale": "none",
+    "concentrate": "none",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 8,
+    "brand": "[전주식당]",
+    "title": "육즙가득 한우 떡갈비 4개입",
+    "desc": "전통 방식 그대로 다져 만든",
+    "discountRate": 12,
+    "discountedPrice": 6980,
+    "firstCost": 7900,
+    "src": "img/item8.png",
+    "refrigerated": "none",
+    "limitedPrice": "none",
+    "timeSale": "none",
+    "concentrate": "none",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 9,
+    "brand": "[쿡잇포차]",
+    "title": "직화 닭목살구이 200g",
+    "desc": "전통 방식 그대로 다져 만든",
+    "discountRate": 6,
+    "discountedPrice": 7450,
+    "firstCost": 7900,
+    "src": "img/item9.png",
+    "refrigerated": "none",
+    "limitedPrice": "",
+    "timeSale": "",
+    "concentrate": "",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 10,
+    "brand": "[쿡잇분식]",
+    "title": "두끼 곤약떡볶이 400g",
+    "desc": "줄 서서 먹는 메뉴를 집에서 간편하게",
+    "discountRate": 10,
+    "discountedPrice": 6200,
+    "firstCost": 6900,
+    "src": "img/item10.png",
+    "refrigerated": "none",
+    "limitedPrice": "none",
+    "timeSale": "none",
+    "concentrate": "",
+    "best": "none"
+    ,"like" : 0
+  },
+  {
+    "id": 11,
+    "brand": "[생선밥상]",
+    "title": "바로구워 먹어 간편한 생선 3종",
+    "desc": "고등어, 삼치, 갈치",
+    "discountRate": 6,
+    "discountedPrice": 15000,
+    "firstCost": 16000,
+    "src": "img/item11.png",
+    "refrigerated": "",
+    "limitedPrice": "none",
+    "timeSale": "none",
+    "concentrate": "none",
+    "best": "none"
+    ,"like" : 0
+  }
+]

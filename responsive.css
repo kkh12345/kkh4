@@ -1,0 +1,56 @@
+@media screen and (max-width: 1030px) {
+  .wrap {
+    width: 100%;
+  }
+  .global-banner {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topBtn {
+    right: 10px;
+    bottom: 80px;
+  }
+  .main-content,
+  .search-box,
+  header,
+  .bottom-menu,
+  header.fixed,
+  .aside,
+  .aside-footer {
+    width: 100%;
+    min-width: 320px;
+    max-width: 480px;
+  }
+  .mainSwiper .txt h1 {
+    font-size: 22px;
+  }
+  .mainSwiper .txt p {
+    font-size: 14px;
+  }
+  .mainSwiper .learn-more {
+    font-size: 13px;
+  }
+  .hdr-bottom nav ul > li {
+    white-space: nowrap;
+    flex: auto;
+  }
+  .hdr-bottom {
+    padding: 15px 10px;
+  }
+  .adSwiper .swiper-slide .txt h1,
+  .adSwiper2 .swiper-slide .txt h1 {
+    font-size: 18px;
+  }
+  .adSwiper .swiper-slide .txt p,
+  .adSwiper2 .swiper-slide .txt p {
+    font-size: 14px;
+  }
+  .main-footer-bottom ul > li:not(:last-child)::after {
+    margin: 0 4px;
+  }
+
+  .cartItem-top .txt {
+    margin-left: 10px;
+  }
+}

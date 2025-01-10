@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <title>메인페이지</title>
+</head>
+
+<body>
+
+  <a href="#" class="topBtn"><i class="fa-solid fa-arrow-up-long"></i></a>
+  <div class="global-bg"></div>
+  <!-- 사이드바 -->
+  <div class="aside-overlay"></div>
+  <aside class="aside">
+    <!-- 사이드 로그인 -->
+    <div class="login">
+      <i class="fa-solid fa-xmark"></i>
+      <h1 class="aside-tit"><a href="#none">로그인해 주세요</a></h1>
+      <span class="login-link"><a href="#none">주문조회</a><a href="#none">회원가입시 다양한 혜택 증정!
+          <i class="fa-solid fa-chevron-right"></i></a></span>
+    </div>
+    <!-- 사이드 카테고리 -->
+    <div class="aside-category">
+      <h1 class="aside-tit">전체 카테고리</h1>
+      <ul></ul>
+    </div>
+    <!-- 사이드 추천 키워드 -->
+    <div class="aside-recommend">
+      <h1 class="aside-tit">추천 키워드</h1>
+      <ul>
+        <li><a href="#none">떡볶이</a></li>
+        <li><a href="#none">소떡소떡</a></li>
+        <li><a href="#none">김밥</a></li>
+        <li><a href="#none">나물</a></li>
+        <li><a href="#none">닭</a></li>
+        <li><a href="#none">막창</a></li>
+        <li><a href="#none">떡갈비</a></li>
+        <li><a href="#none">핫도그</a></li>
+      </ul>
+    </div>
+    <!-- 사이드 커뮤니티 -->
+    <div class="aside-community">
+      <h1 class="aside-tit">커뮤니티</h1>
+      <ul>
+        <li><a href="#none">공지사항</a></li>
+        <li><a href="#none">기획전</a></li>
+        <li><a href="#none">구매후기 </a></li>
+        <li><a href="#none">자주 묻는 질문</a></li>
+        <li><a href="#none">구매문의</a></li>
+        <li><a href="#none">이벤트</a></li>
+      </ul>
+    </div>
+    <!-- 사이드 푸터 -->
+    <footer class="aside-footer">
+      <div class="aside-footer-top">
+        <p>
+          <i class="fa-solid fa-volume-low"></i><a href="#none"><b>공지<i class="fa-solid fa-plus"></i></b> 디자인 문의전화 :
+            02-812-3881</a>
+        </p>
+      </div>
+      <div class="aside-footer-bottom">
+        <ul>
+          <li><a href="#none">고객센터</a></li>
+          <li><a href="#none">1:1문의</a></li>
+          <li><a href="#none">로그인</a></li>
+        </ul>
+      </div>
+    </footer>
+  </aside>
+
+  <div class="wrap">
+    <!-- 메인 콘텐츠 -->
+    <div class="main-content">
+      <!-- 검색창 -->
+      <div class="search-box">
+        <div class="search-top">
+          <i class="fa-solid fa-arrow-left"></i>
+          <div class="search-input-wrap">
+            <input type="text" /> <i class="fa-solid fa-xmark"></i>
+          </div>
+          <button class="search-btn"><a href="#none">검색</a></button>
+        </div>
+        <div class="search-recommend">
+          <h1 class="search-tit">추천 키워드</h1>
+          <div class="swiper searchRecommendSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="#none">떡볶이</a></div>
+              <div class="swiper-slide"><a href="#none">소떡소떡</a></div>
+              <div class="swiper-slide"><a href="#none">김밥</a></div>
+              <div class="swiper-slide"><a href="#none">나물</a></div>
+              <div class="swiper-slide"><a href="#none">닭</a></div>
+              <div class="swiper-slide"><a href="#none">막창</a></div>
+              <div class="swiper-slide"><a href="#none">떡갈비</a></div>
+              <div class="swiper-slide"><a href="#none">핫도그</a></div>
+            </div>
+          </div>
+
+          <ul></ul>
+        </div>
+        <div class="search-recent">
+          <h1 class="search-tit">
+            최근 본 상품
+            <a href="#none">전체보기 <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </h1>
+          <div class="recent-item-box">
+            <div class="empty-box">
+              <img src="img/empty.svg" alt="" />
+              <p>최근 본 상품 내역이 없습니다.</p>
+            </div>
+          </div>
+        </div>
+        <div class="popular-searches">
+          <h1 class="search-tit">인기 검색어</h1>
+          <ul>
+            <li>
+              <a href="#none"><span class="order">1</span>소고기양곱창</a>
+            </li>
+            <li>
+              <a href="#none"><span class="order">2</span>치킨샐러드</a>
+            </li>
+            <li>
+              <a href="#none"><span class="order">3</span>스테이크</a>
+            </li>
+            <li>
+              <a href="#none"><span class="order">4</span>닭가슴살</a>
+            </li>
+            <li>
+              <a href="#none"><span class="order">5</span>소떡소떡</a>
+            </li>
+            <li>
+              <a href="#none"><span class="order">6</span>순대</a>
+            </li>
+            <li>
+              <a href="#none"><span class="order">7</span>핫도그</a>
+            </li>
+            <li>
+              <a href="#none"><span class="order">8</span>신채나물</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- y-top -->
+      <section class="y-top">
+        <a href="#none">지금 회원가입시 <span>3,000원</span> 쿠폰 바로 증정!
+          <i class="fa-solid fa-chevron-right"></i></a>
+      </section>
+      <!-- 헤더 -->
+      <header>
+        <div class="hdr-top">
+          <a href="#none" class="left"><i class="fa-solid fa-bars"></i></a>
+          <a class="logo" href="index.html">
+            <img src="img/logo.png" alt="" />
+          </a>
+          <div class="right">
+            <a class="searchIcon" href="#none"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="cartIcon" href="#none"><i class="fa-solid fa-cart-shopping"></i><span class="num">0</span></a>
+          </div>
+        </div>
+        <div class="hdr-bottom">
+          <nav>
+            <ul>
+              <li><a href="#none">베스트</a></li>
+              <li><a href="#none">신상품</a></li>
+              <li><a href="#none">오늘배송</a></li>
+              <li><a href="#none">이달의 특가</a></li>
+              <li><a href="#none">이벤트</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main_page-main">
+        <!-- 메인비주얼 스와이퍼 -->
+        <section class="main_visual">
+          <div class="swiper mainSwiper">
+            <div class="swiper-wrapper"></div>
+
+            <div class="swiper-pagination pagination1"></div>
+          </div>
+        </section>
+        <!-- 메인카테고리 -->
+        <section class="main-category">
+          <ul></ul>
+
+          <button class="close-category">
+            카테고리 닫기 <i class="fa-solid fa-chevron-up"></i>
+          </button>
+        </section>
+        <!-- 핫딜 -->
+        <section class="hot_deal">
+          <h1 class="sec-tit">
+            핫한 할인, 이달의 특가
+            <a href="#none" class="sec-view_all">전체보기 <i class="fa-solid fa-chevron-right"></i></a>
+          </h1>
+          <p class="sec-subtit">이달만 이가격! 놓치지 마세요</p>
+          <div class="swiper hotDealSwiper">
+            <div class="swiper-wrapper"></div>
+          </div>
+        </section>
+        <!-- 광고 -->
+        <section class="ad">
+          <div class="swiper adSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/ad1.png" alt="" />
+                <div class="txt txt1">
+                  <p>믿을 수 있는 신선함</p>
+                  <h1>노르웨이 프리미엄 생연어</h1>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="txt txt2">
+                  <p>국내산 생족으로 만든</p>
+                  <h1>부천 국내산 순족발</h1>
+                </div>
+                <img src="img/ad2.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-pagination pagination2"></div>
+          </div>
+        </section>
+        <!-- 타임딜 -->
+        <section class="time_deal">
+          <h1 class="sec-tit">
+            놓치면 후회, 타임딜
+            <a href="#none" class="sec-view_all">전체보기 <i class="fa-solid fa-chevron-right"></i></a>
+          </h1>
+          <p class="sec-subtit">맛있었다는 후기가 많아요!</p>
+          <div class="big-imgWrap">
+            <a href="#none"><img src="img/item1.png" alt="" /></a>
+            <span class="limitedPrice">한정특가</span>
+          </div>
+          <div class="big-imgTxt">
+            <p><a href="#none">판매문의</a></p>
+            <p>100% 국내산 찹쌀 닭가슴살</p>
+            <h4>판매문의</h4>
+          </div>
+          <ul></ul>
+        </section>
+        <!-- 베스트셀러 -->
+        <section class="best_seller">
+          <h1 class="sec-tit">
+            지금 뜨는 베스트셀러
+            <a href="#none" class="sec-view_all">전체보기 <i class="fa-solid fa-chevron-right"></i></a>
+          </h1>
+          <ul class="best_list"></ul>
+        </section>
+        <!-- 추천 키워드 -->
+        <section class="recommend">
+          <h1 class="sec-tit">추천 키워드</h1>
+          <ul>
+            <li><a href="#none">떡볶이</a></li>
+            <li><a href="#none">소떡소떡</a></li>
+            <li><a href="#none">김밥</a></li>
+            <li><a href="#none">나물</a></li>
+            <li><a href="#none">닭</a></li>
+            <li><a href="#none">막창</a></li>
+            <li><a href="#none">떡볶이</a></li>
+            <li><a href="#none">핫도그</a></li>
+          </ul>
+        </section>
+        <!-- 시선집중 이주의 상품 -->
+        <section class="week">
+          <h1 class="sec-tit">시선집중 이주의 상품!</h1>
+          <div class="swiper weekSwiper">
+            <div class="swiper-wrapper"></div>
+          </div>
+        </section>
+        <!-- 새로나온 따끈따끈 신상 -->
+        <section class="new">
+          <h1 class="sec-tit">
+            새로나온 따끈따끈 신상
+            <a href="#none" class="sec-view_all">전체보기 <i class="fa-solid fa-chevron-right"></i></a>
+          </h1>
+          <p class="sec-subtit">지금 막 새롭게 출시했어요</p>
+          <div class="swiper newSwiper">
+            <div class="swiper-wrapper"></div>
+          </div>
+        </section>
+        <!-- 진행중 이벤트-->
+        <section class="current_event">
+          <h1 class="sec-tit">
+            진행중 이벤트
+            <a href="#none" class="sec-view_all">전체보기 <i class="fa-solid fa-chevron-right"></i></a>
+          </h1>
+          <ul>
+            <li>
+              <div class="imgWrap">
+                <a href="#none"><img src="img/event-img1.png" alt="" /></a>
+              </div>
+              <h3>
+                <a href="#none">[기획전] 떡볶이맛있게 먹는 10가지 방법</a>
+              </h3>
+            </li>
+            <li>
+              <div class="imgWrap">
+                <a href="#none"><img src="img/event-img2.png" alt="" /></a>
+              </div>
+              <h3><a href="#none">[이벤트] 남원백김치 런칭 최대 20%</a></h3>
+            </li>
+          </ul>
+        </section>
+        <!-- 기획전 -->
+        <section class="planning">
+          <h1 class="sec-tit">브랜드 기획전</h1>
+          <div class="swiper planSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="big-imgWrap">
+                  <a href="#none"><img src="img/brand1.png" alt="" /></a>
+                  <div class="txt">
+                    <h1>쿡잇포차</h1>
+                    <p>출출할때 생각나는 쿡잇메이드<br />야식 전문 브랜드</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="big-imgWrap">
+                  <a href="#none"><img src="img/brand2.png" alt="" /></a>
+                  <div class="txt">
+                    <h1>쿡잇분식</h1>
+                    <p>출출할때 생각나는 쿡잇메이드<br />야식 전문 브랜드</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="big-imgWrap">
+                  <a href="#none"><img src="img/brand3.png" alt="" /></a>
+                  <div class="txt">
+                    <h1>전주밥상</h1>
+                    <p>출출할때 생각나는 쿡잇메이드<br />야식 전문 브랜드</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 쿡잇티비 -->
+        <section class="video">
+          <h1 class="sec-tit">
+            쿡잇티비
+            <a href="#none" class="sec-view_all">쿡잇티비 보러가기 <i class="fa-solid fa-chevron-right"></i></a>
+          </h1>
+          <ul class="video-list">
+            <li>
+              <div class="imgWrap">
+                <img src="img/video1.png" alt="" />
+                <a href="#none" class="play"><i class="fa-regular fa-circle-play"></i></a>
+              </div>
+              <div class="txt">
+                <h3>추울때는 따뜻한 가마보꼬 어묵전골</h3>
+                <span><a href="#none">#쿡잇마켓</a><a href="#none">#어묵전골</a><a href="#none">#가마보꼬</a></span>
+              </div>
+            </li>
+            <li>
+              <div class="imgWrap">
+                <img src="img/video2.png" alt="" />
+                <a href="#none" class="play"><i class="fa-regular fa-circle-play"></i></a>
+              </div>
+              <div class="txt">
+                <h3>추울때는 따뜻한 가마보꼬 어묵전골</h3>
+                <span><a href="#none">#쿡잇마켓</a><a href="#none">#어묵전골</a><a href="#none">#가마보꼬</a></span>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- 집에서 간편하게 준비 -->
+        <section class="home">
+          <h1 class="sec-tit">집에서 간편하게 준비해요</h1>
+          <p class="sec-subtit">
+            간편 신선템이 오늘 배송으로 빠르게 도착해요
+          </p>
+          <ul class="home-list"></ul>
+        </section>
+        <!-- 직접 먹어본 생생 후기! -->
+        <section class="review">
+          <h1 class="sec-tit">직접 먹어본 생생 후기! <a href="#none" class="sec-view_all">전체보기 <i
+                class="fa-solid fa-chevron-right"></i></a></h1>
+          <div class="swiper reviewSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="imgWrap">
+                  <a href="#none"><img src="img/nullimg.png" alt="" /></a>
+                  <span class="best">베스트</span>
+                </div>
+                <a href="none" class="txt">
+                  <span>
+                    <img src="img/star5.png" alt="" />
+                    <span class="date">2023.03.14</span>
+                  </span>
+                  <p>후기가 좋아서 구매했어요</p>
+                  <p>굳굳</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgWrap">
+                  <a href="#none"><img src="img/item4.png" alt="" /></a>
+                  <span class="best">베스트</span>
+                </div>
+                <a href="none" class="txt">
+                  <span>
+                    <img src="img/star5.png" alt="" />
+                    <span class="date">2023.03.14</span>
+                  </span>
+                  <p>후기가 좋아서 구매했어요</p>
+                  <p>굳굳</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgWrap">
+                  <a href="#none"><img src="img/nullimg.png" alt="" /></a>
+                  <span class="best">베스트</span>
+                </div>
+                <a href="none" class="txt">
+                  <span>
+                    <img src="img/star5.png" alt="" />
+                    <span class="date">2023.03.14</span>
+                  </span>
+                  <p>후기가 좋아서 구매했어요</p>
+                  <p>굳굳</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- 검색 페이지 -->
+      <main class="search_page-main">
+        <div class="search_page-searchArea">
+          <h1>
+            <a href="index.html">
+              <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            상품검색
+          </h1>
+          <div class="search_page-search-inputWrap">
+            <input type="text" />
+            <div><i class="fa-solid fa-xmark"></i></div>
+            <button><a href="#none">검색</a></button>
+          </div>
+          <p>
+            총 <span class="result-num">0</span> 개의 상품이 검색되었습니다.
+          </p>
+        </div>
+        <div class="search_page-recommend">
+          <h1 class="search-tit">추천 키워드</h1>
+          <div class="swiper searchRecommendSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="#none">떡볶이</a></div>
+              <div class="swiper-slide"><a href="#none">소떡소떡</a></div>
+              <div class="swiper-slide"><a href="#none">김밥</a></div>
+              <div class="swiper-slide"><a href="#none">나물</a></div>
+              <div class="swiper-slide"><a href="#none">닭</a></div>
+              <div class="swiper-slide"><a href="#none">막창</a></div>
+              <div class="swiper-slide"><a href="#none">떡갈비</a></div>
+              <div class="swiper-slide"><a href="#none">핫도그</a></div>
+            </div>
+          </div>
+          <div class="search_result">
+            <div class="search_result-info">
+              <span>총 <span class="result-num">1</span> 개의 상품</span>
+              <select name="" id="">
+                <option value="" selected disabled>::: 기준선택:::</option>
+                <option value="가격 높은순">가격 높은순</option>
+                <option value="가격 낮은순">가격 낮은순</option>
+                <option value="상품명">상품명</option>
+              </select>
+            </div>
+            <div class="search_result-item">
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- 로그인 페이지 -->
+      <main class="login_page-main">
+        <div class="introduce">
+          <h1>안녕하세요 :)<br />한끼두끼입니다.</h1>
+          <p>회원가입을 하시면 다양하고 특별한 혜택이 준비되어 있습니다.</p>
+        </div>
+        <div class="login-area">
+          <form action="">
+            <div class="idWrap">
+              <input type="text" id="id" placeholder="아이디" />
+            </div>
+            <div class="pwWrap">
+              <input type="text" id="password" placeholder="패스워드" />
+            </div>
+            <span class="lock"><img src="img/lock.png" alt="" />보안접속</span>
+            <div class="login-btnWrap">
+              <input type="button" value="로그인" />
+            </div>
+          </form>
+          <div class="find">
+            <a href="#none">아이디찾기</a><span>|</span><a href="#none">비밀번호찾기</a>
+          </div>
+          <div class="sign_up-btn">
+            <a href="#none"><span>아직 회원이 아니세요?</span><span>회원가입 <i class="fa-solid fa-chevron-right"></i></span></a>
+          </div>
+        </div>
+      </main>
+      <!-- 장바구니 페이지 -->
+      <main class="cart_page-main">
+        <div class="cart_page-tit">
+          <h1>
+            <a href="index.html">
+              <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            장바구니
+          </h1>
+        </div>
+        <div class="cart-item-area">
+          <h3 class="cartTap-tit">장바구니 상품</h3>
+          <div class="cart-tap-content"></div>
+          <div class="select-btnWrap">
+            <button class="select-all">전체선택</button>
+            <button class="delete-selection">선택삭제</button>
+          </div>
+        </div>
+        <div class="order-btn-wrap">
+          <button>선택상품주문</button><button>전체상품주문</button>
+        </div>
+      </main>
+      <!-- 상세페이지 -->
+      <main class="detail_page-main">
+        <setcion class="detail-item">
+          <span class="like-num">
+            좋아요 <span style="color: red"></span></span>
+          <div class="item"></div>
+        </setcion>
+        <section class="delivery">
+          <div class="txt">
+            <p><span>국내 해외배송</span> <span>국내배송</span></p>
+            <p><span>국내 해외배송</span> <span>국내배송</span></p>
+            <p><span>국내 해외배송</span> <span>국내배송</span></p>
+          </div>
+        </section>
+        <section class="item-option1">
+          <span>옵션1</span>
+          <select name="" id="detail-option1" aria-valuetext="">
+            <option value="" selected disabled>
+              - [필수] 옵션을 선택해 주세요 -
+            </option>
+            <option value="" disabled>===========</option>
+            <option value="100g">100g</option>
+            <option value="200g">200g</option>
+            <option value="300g">300g</option>
+          </select>
+        </section>
+        <section class="item-option2">
+          <span>옵션2</span>
+          <div class="txt">
+            <div class="inputWrap">
+              <label><input value="매운맛" type="radio" name="taste" checked></input>매운맛</label>
+              <label><input value="순한맛" type="radio" name="taste"></input>순한맛</label>
+
+            </div>
+            <p>[필수]<span>매운맛</span></p>
+          </div>
+        </section>
+        <section class="price-sum">
+
+          <div class="btnWrap">
+            <button>♡</button>
+            <button>장바구니</button>
+            <button>구매하기</button>
+          </div>
+        </section>
+        <section class="ad2">
+          <div class="swiper adSwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/detail ad1.png" alt="" />
+                <div class="txt txt1">
+                  <p>좋아요 누르면 쿠폰을 드려요</p>
+                  <h1>한끼두끼 좋아요 이벤트</h1>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="txt txt2">
+                  <p>10% 추가 할인 받고 싶다면!</p>
+                  <h1>네이버 페이로 구매하기</h1>
+                </div>
+                <img src="img/detail ad2.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-pagination pagination2"></div>
+          </div>
+        </section>
+        <section class="tap">
+          <ul>
+            <li class="selected">상세정보 <span class="bar"></span></li>
+            <li>
+              구매후기<span class="num">1</span><span class="bar"></span>
+            </li>
+            <li>
+              구매문의<span class="num">0</span><span class="bar"></span>
+            </li>
+            <li>구매안내<span class="bar"></span></li>
+          </ul>
+          <div class="tap-content">
+            <div class="banner">
+              <img src="img/detail banner.jpg" alt="" />
+            </div>
+            <div class="how-about">
+              <h3>이 상품은 어떠세요?</h3>
+              <div class="itemWrap">
+                <div class="item"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- 푸터 -->
+      <footer class="main-footer">
+        <section class="main-footer-top">
+          <h3>
+            고객센터 02-000-0001 <i class="fa-solid fa-chevron-right"></i>
+          </h3>
+          <p>평일 오전 9시 ~ 오후 5시 (주말/공휴일 휴무)</p>
+          <p>점심 오후 12시 ~ 오후 1시 반</p>
+          <a href="#none"><button>1:1 문의</button></a>
+        </section>
+        <section class="main-footer-bottom">
+          <h3>
+            (주)모렌비 사업자 정보 <i class="fa-solid fa-chevron-down"></i>
+          </h3>
+          <ul>
+            <li><a href="#none">회사소개</a></li>
+            <li><a href="#none">이용약관</a></li>
+            <li><a href="#none">개인정보처리방침</a></li>
+            <li><a href="#none">이용안내</a></li>
+          </ul>
+        </section>
+      </footer>
+      <!-- 하단 고정 메뉴 -->
+      <section class="bottom-menu">
+        <ul>
+          <li>
+            <a href="index.html" class="selected">
+              <i class="fa-solid fa-house"></i>
+              <span>홈</span>
+            </a>
+          </li>
+          <li>
+            <a href="#none">
+              <i class="fa-solid fa-bars"></i>
+              <span>카테고리</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#none">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>검색</span>
+            </a>
+          </li>
+          <li>
+            <a href="#none">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>장바구니</span>
+            </a>
+          </li>
+          <li>
+            <a href="#none">
+              <i class="fa-regular fa-user"></i>
+              <span>마이샵</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="global-banner">
+      <a href="#none"><img src="img/banner.png" alt="" /></a>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="createElm.js"></script>
+  <script src="createSwiper.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

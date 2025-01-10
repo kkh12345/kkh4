@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "src": "img/category-list1.png",
+    "tit": "식단관리"
+  },
+  {
+    "id": 2,
+    "src": "img/category-list2.png",
+    "tit": "구이·볶음"
+  },
+  {
+    "id": 3,
+    "src": "img/category-list3.png",
+    "tit": "국·탕·찌개"
+  },
+  {
+    "id": 4,
+    "src": "img/category-list4.png",
+    "tit": "안주·야식"
+  },
+  {
+    "id": 5,
+    "src": "img/category-list5.png",
+    "tit": "밥·도시락"
+  },
+  {
+    "id": 6,
+    "src": "img/category-list6.png",
+    "tit": "분식·튀김"
+  },
+  {
+    "id": 7,
+    "src": "img/category-list7.png",
+    "tit": "반찬·소스"
+  },
+  {
+    "id": 8,
+    "src": "img/category-list8.png",
+    "tit": "베이커리"
+  },
+  {
+    "id": 9,
+    "src": "img/category-list9.png",
+    "tit": "정육·수산"
+  },
+  {
+    "id": 10,
+    "src": "img/category-list10.png",
+    "tit": "간편요리"
+  },
+  {
+    "id": 11,
+    "src": "img/category-list11.png",
+    "tit": "비건·채식"
+  },
+  {
+    "id": 12,
+    "src": "img/category-list12.png",
+    "tit": "홈·리빙"
+  }
+]
